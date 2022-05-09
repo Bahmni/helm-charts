@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   bahmni-web:
   - apiVersion: v2
-    created: "2022-05-09T06:30:04.117390064Z"
+    created: "2022-05-09T06:35:17.775612162Z"
     description: Helm chart for bahmni-web
     digest: 9d80503cb3da5f2217b0a6b9703be74423c3d4c5208105710aca530aeb557682
     name: bahmni-web
@@ -11,7 +11,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-web/bahmni-web-1.0.0-24.tgz
     version: 1.0.0-24
   - apiVersion: v2
-    created: "2022-05-09T06:30:04.116863343Z"
+    created: "2022-05-09T06:35:17.775018154Z"
     description: Helm chart for bahmni-web
     digest: c97dde115034d30e1c2e6ee12ac35906822f65bbebe9237b842aabd8c05266eb
     name: bahmni-web
@@ -21,7 +21,7 @@ entries:
     version: 1.0.0-23
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-09T06:30:04.11651673Z"
+    created: "2022-05-09T06:35:17.774739951Z"
     description: Helm chart for bahmni-web
     digest: c4158150defbc6af231028c9168d36ba4acb18a8c4db036d0f21fe787b1ac1c7
     name: bahmni-web
@@ -31,7 +31,7 @@ entries:
     version: 1.0.0-21
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-09T06:30:04.116187317Z"
+    created: "2022-05-09T06:35:17.774443347Z"
     description: Helm chart for bahmni-web
     digest: d69eb2846a0252c6f02f8bd4e57f3fe161d65535f64c681068f8b38d01c8290f
     name: bahmni-web
@@ -42,7 +42,17 @@ entries:
   openmrs:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-09T06:30:04.117763579Z"
+    created: "2022-05-09T06:35:17.776460673Z"
+    description: Helm Chart for Bahmni OpenMRS
+    digest: c4caf86d3d9e0e79879691225939b6a89075c4081eb01457caf442cb8d8b0357
+    name: openmrs
+    type: application
+    urls:
+    - https://bahmni.github.io/helm-charts/openmrs/openmrs-1.0.0-27.tgz
+    version: 1.0.0-27
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-09T06:35:17.776104468Z"
     description: Helm Chart for Bahmni OpenMRS
     digest: ff4d06c97a6d038597a03dc705c2018625c6819505abfdd5b46b9be8ec4127b0
     name: openmrs
@@ -50,4 +60,4 @@ entries:
     urls:
     - https://bahmni.github.io/helm-charts/openmrs/openmrs-1.0.0-26.tgz
     version: 1.0.0-26
-generated: "2022-05-09T06:30:04.115307082Z"
+generated: "2022-05-09T06:35:17.77388924Z"
