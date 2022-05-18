@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   bahmni-lab:
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.273804154Z"
+    created: "2022-05-18T12:02:50.213899324Z"
     description: Helm chart for bahmni-lab
     digest: a7b96e77044028e288a91e3ac14ad0e0fab6006b6998e9c2e9a5b4a365e42c69
     name: bahmni-lab
@@ -11,7 +11,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-lab/bahmni-lab-1.0.0-61.tgz
     version: 1.0.0-61
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.27346395Z"
+    created: "2022-05-18T12:02:50.213361122Z"
     description: Helm chart for bahmni-lab
     digest: 94e650df470703f8b39168572d63709d0b87ef78f550f4f2472a62008dac7c59
     name: bahmni-lab
@@ -20,7 +20,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-lab/bahmni-lab-1.0.0-60.tgz
     version: 1.0.0-60
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.272943045Z"
+    created: "2022-05-18T12:02:50.21291792Z"
     description: Helm chart for bahmni-lab
     digest: 6dd2c944e266ea3af022db37ede2b4f78326d8c8a7b0a7a39a7b9d429eeced4f
     name: bahmni-lab
@@ -29,7 +29,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-lab/bahmni-lab-1.0.0-59.tgz
     version: 1.0.0-59
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.272569141Z"
+    created: "2022-05-18T12:02:50.212440819Z"
     description: Helm chart for bahmni-lab
     digest: 37179ddf15a25a0aa3450d1f8d67dc1c31f0f1378b2346681d9b17166d9520e0
     name: bahmni-lab
@@ -39,7 +39,7 @@ entries:
     version: 1.0.0-58
   bahmni-web:
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.27630118Z"
+    created: "2022-05-18T12:02:50.215935231Z"
     description: Helm chart for bahmni-web
     digest: 33c816fff8cadbe7038ba6635402fd06b25ed48abbda8a6e774dfb98a17465c0
     name: bahmni-web
@@ -48,7 +48,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-web/bahmni-web-1.0.0-26.tgz
     version: 1.0.0-26
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.275979777Z"
+    created: "2022-05-18T12:02:50.215670431Z"
     description: Helm chart for bahmni-web
     digest: 0d10dc3f0cdf63ff1e34fdb2bd801438535acbcd37bb69f2f9f4126ccb848a64
     name: bahmni-web
@@ -57,7 +57,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-web/bahmni-web-1.0.0-25.tgz
     version: 1.0.0-25
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.275683874Z"
+    created: "2022-05-18T12:02:50.215354429Z"
     description: Helm chart for bahmni-web
     digest: 9d80503cb3da5f2217b0a6b9703be74423c3d4c5208105710aca530aeb557682
     name: bahmni-web
@@ -66,7 +66,7 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-web/bahmni-web-1.0.0-24.tgz
     version: 1.0.0-24
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.27535567Z"
+    created: "2022-05-18T12:02:50.215004528Z"
     description: Helm chart for bahmni-web
     digest: c97dde115034d30e1c2e6ee12ac35906822f65bbebe9237b842aabd8c05266eb
     name: bahmni-web
@@ -76,7 +76,7 @@ entries:
     version: 1.0.0-23
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T08:52:19.274544062Z"
+    created: "2022-05-18T12:02:50.214661427Z"
     description: Helm chart for bahmni-web
     digest: c4158150defbc6af231028c9168d36ba4acb18a8c4db036d0f21fe787b1ac1c7
     name: bahmni-web
@@ -86,7 +86,7 @@ entries:
     version: 1.0.0-21
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T08:52:19.274191558Z"
+    created: "2022-05-18T12:02:50.214293025Z"
     description: Helm chart for bahmni-web
     digest: d69eb2846a0252c6f02f8bd4e57f3fe161d65535f64c681068f8b38d01c8290f
     name: bahmni-web
@@ -96,7 +96,16 @@ entries:
     version: 1.0.0-20
   openmrs:
   - apiVersion: v2
-    created: "2022-05-18T08:52:19.277564494Z"
+    created: "2022-05-18T12:02:50.217485937Z"
+    description: Helm Chart for Bahmni OpenMRS
+    digest: 3e9928376018f5023e4c1e2255795babd7399988a165ec35790d01c076fdae8d
+    name: openmrs
+    type: application
+    urls:
+    - https://bahmni.github.io/helm-charts/openmrs/openmrs-1.0.0-31-31.tgz
+    version: 1.0.0-31-31
+  - apiVersion: v2
+    created: "2022-05-18T12:02:50.217103236Z"
     description: Helm Chart for Bahmni OpenMRS
     digest: 1a4e797487dc477cf7ac1cb86df3bd88dd39808785575bb3fead7188b76191dc
     name: openmrs
@@ -106,7 +115,7 @@ entries:
     version: 1.0.0-28
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T08:52:19.27716259Z"
+    created: "2022-05-18T12:02:50.216726734Z"
     description: Helm Chart for Bahmni OpenMRS
     digest: c4caf86d3d9e0e79879691225939b6a89075c4081eb01457caf442cb8d8b0357
     name: openmrs
@@ -116,7 +125,7 @@ entries:
     version: 1.0.0-27
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-18T08:52:19.276740485Z"
+    created: "2022-05-18T12:02:50.216298133Z"
     description: Helm Chart for Bahmni OpenMRS
     digest: ff4d06c97a6d038597a03dc705c2018625c6819505abfdd5b46b9be8ec4127b0
     name: openmrs
@@ -124,4 +133,4 @@ entries:
     urls:
     - https://bahmni.github.io/helm-charts/openmrs/openmrs-1.0.0-26.tgz
     version: 1.0.0-26
-generated: "2022-05-18T08:52:19.270538319Z"
+generated: "2022-05-18T12:02:50.211721316Z"
