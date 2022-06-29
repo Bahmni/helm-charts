@@ -7,7 +7,6 @@ on:
 jobs:
   trigger:
     name: Trigger Workflows
-    needs: build-upload-artifact
     runs-on: ubuntu-latest
     env:
       #TODO: Currently this is triggering BahmniIndia Deployment. Once we have umbrella on the product this needs to be updated.
