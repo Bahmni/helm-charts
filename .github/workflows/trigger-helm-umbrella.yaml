@@ -1,0 +1,27 @@
+name: Trigger Helm Umbrella
+on:
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types:
+      - completed
+jobs:
+  trigger:
+    name: Trigger Workflows
+    needs: build-upload-artifact
+    runs-on: ubuntu-latest
+    env:
+      #TODO: Currently this is triggering BahmniIndia Deployment. Once we have umbrella on the product this needs to be updated.
+      ORG_NAME: BahmniIndiaDistro
+      REPOSITORY_NAME: helm-umbrella-chart
+      EVENT_TYPE: bahmni-helm-publish-event
+    steps:
+      - name: Create repository_dispatch
+        run: |
+          trigger_result=$(curl -s -o trigger_response.txt -w "%{http_code}" -X POST -H "Accept: application/vnd.github.v3+json" -H 'authorization: Bearer ${{ secrets.BAHMNI_PAT }}' https://api.github.com/repos/${ORG_NAME}/${REPOSITORY_NAME}/dispatches -d '{"event_type":"'"${EVENT_TYPE}"'"}')
+          if [ $trigger_result == 204 ];then
+            echo "Trigger to $ORG_NAME/$REPOSITORY_NAME Success"
+          else
+            echo "Trigger to $ORG_NAME/$REPOSITORY_NAME Failed"
+            cat trigger_response.txt
+            exit 1
+          fi
