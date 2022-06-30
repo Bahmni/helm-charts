@@ -8,6 +8,7 @@ jobs:
   trigger:
     name: Trigger Workflows
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     env:
       #TODO: Currently this is triggering BahmniIndia Deployment. Once we have umbrella on the product this needs to be updated.
       ORG_NAME: BahmniIndiaDistro
