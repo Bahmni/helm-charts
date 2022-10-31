@@ -2042,24 +2042,6 @@ entries:
     version: 1.0.0-8
   implementer-interface:
   - apiVersion: v2
-    created: "2022-10-31T08:43:09.678849645Z"
-    description: Helm chart for bahmni implementer-interface module
-    digest: 59d05c0f7a06d24f47396fe4fba31032c1712ee74dca4453031cfba9721c94e9
-    name: implementer-interface
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/implementer-interface/implementer-interface-1.0.0-169.tgz
-    version: 1.0.0-169
-  - apiVersion: v2
-    created: "2022-10-31T08:43:09.67861644Z"
-    description: Helm chart for bahmni implementer-interface module
-    digest: 4d5ee3ae7700737ebcde824d2f2aca1c0b8ff540239a073453ff81b454f7d7e4
-    name: implementer-interface
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/implementer-interface/implementer-interface-1.0.0-167.tgz
-    version: 1.0.0-167
-  - apiVersion: v2
     created: "2022-10-31T08:43:09.680601177Z"
     description: Helm chart for bahmni implementer-interface module
     digest: 50ee6916a54f08824cc337cbb04b9770e2c463910ca4f5654df5e92d4b6ce100
