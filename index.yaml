@@ -1311,15 +1311,6 @@ entries:
     version: 1.0.0-1
   bahmni-web:
   - apiVersion: v2
-    created: "2023-02-24T12:02:07.895997929Z"
-    description: Helm chart for bahmni-web
-    digest: 571e0f0e7ef09b2d0f3b24792b8265251e77ffce9ae880d7d6d8cec63239574e
-    name: bahmni-web
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/bahmni-web/bahmni-web-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-02-24T12:02:07.880692701Z"
     description: Helm chart for bahmni-web
     digest: 424061278d90a473717e1d8cae22adcf9d122d822e607e8dcf94df3aa640fd6a
