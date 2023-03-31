@@ -1130,15 +1130,6 @@ entries:
     version: 1.0.0-43
   bahmni-metabase:
   - apiVersion: v2
-    created: "2023-03-31T06:14:58.329750744Z"
-    description: Helm Chart for Bahmni Metabase
-    digest: 6c1090abb885b1b4d801d549abc6cb3735a5ad2481481ccd9455d81f3645239a
-    name: bahmni-metabase
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/bahmni-metabase/bahmni-metabase-1.1.0.tgz
-    version: 1.1.0
-  - apiVersion: v2
     created: "2023-03-31T06:14:58.329367323Z"
     description: Helm Chart for Bahmni Metabase
     digest: eab4e2e0a4df42a016f3cff1c6b74203e2e80a0e3689d331eac1e5a6e2e05e9d
