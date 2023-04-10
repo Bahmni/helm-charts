@@ -3691,15 +3691,6 @@ entries:
     version: 1.0.0-198
   crater:
   - apiVersion: v2
-    created: "2023-04-10T07:37:27.181873412Z"
-    description: A Helm chart for crater
-    digest: 9c27e30f014ecbb221da993f5214a1354d544b28c72fb9cd7e40c15d7178a42b
-    name: crater
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/crater/crater-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-04-10T07:37:27.18118031Z"
     description: A Helm chart for crater
     digest: a286faebc53a6c545ef4e732389dc4177dc6d43c6c6d6c8d98a64064e50238ab
