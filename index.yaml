@@ -2,15 +2,6 @@ apiVersion: v1
 entries:
   appointments:
   - apiVersion: v2
-    created: "2023-04-10T05:07:00.855891448Z"
-    description: Helm chart for bahmni appointments module
-    digest: 0713f0329cf90e7208fce92a1f7f0064ce54e6c35e8da8386fd8740b4d4a961b
-    name: appointments
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/appointments/appointments-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-04-10T05:07:00.855003952Z"
     description: Helm chart for bahmni appointments module
     digest: 996316bdd18ad3ee2f69d853a3b4eba2159c1fe86ffd33c4c0c1d3e896d6a087
