@@ -3195,15 +3195,6 @@ entries:
     version: 1.0.0-20
   clinic-config:
   - apiVersion: v2
-    created: "2023-04-19T10:41:06.788634798Z"
-    description: Helm chart for clinic-config of bahmni
-    digest: ca05ef7e67c039eced6107edfc48c09bed76edef07581667efb7febd9eee512f
-    name: clinic-config
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/clinic-config/clinic-config-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-04-19T10:41:06.7884153Z"
     description: Helm chart for clinic-config of bahmni
     digest: 216a17208899386066d374e7b52fe5ca01993eea3b18561e33482dac89979b84
