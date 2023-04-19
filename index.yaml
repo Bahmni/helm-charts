@@ -4975,15 +4975,6 @@ entries:
     version: 1.0.0-18
   openmrs:
   - apiVersion: v2
-    created: "2023-04-19T10:58:28.591527895Z"
-    description: Helm Chart for Bahmni OpenMRS
-    digest: 6d5391e8be68b6b90315a61b43b928aadcc06af32609eada69f9e76624685321
-    name: openmrs
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/openmrs/openmrs-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-04-19T10:58:28.57436953Z"
     description: Helm Chart for Bahmni OpenMRS
     digest: 732d63543eb14aaa9bbceb8bf4a3708f2e05734b99e25d52406cf48c13076dfd
