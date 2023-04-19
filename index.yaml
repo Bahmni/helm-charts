@@ -6670,15 +6670,6 @@ entries:
     version: 1.0.0-26
   patient-documents:
   - apiVersion: v2
-    created: "2023-04-19T10:58:28.597012883Z"
-    description: Helm chart for patients-documents
-    digest: 1029425ff91a12e7b1368c60de44336b8ca0d33ef7a3216eb322410e8645029b
-    name: patient-documents
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/patient-documents/patient-documents-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-04-19T10:58:28.595340487Z"
     description: Helm chart for patients-documents
     digest: 0353870d0936718c496ecbce74a4cc87aa271cbc92297c7827871c3d8ebf70d3
