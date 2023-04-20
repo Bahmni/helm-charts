@@ -228,15 +228,6 @@ entries:
     version: 1.0.0-7
   bahmni-lab:
   - apiVersion: v2
-    created: "2023-04-19T11:37:44.710406988Z"
-    description: Helm chart for bahmni-lab
-    digest: 99f93c0ca24ac9024374e131f28a198e9ebb9045bcfa1c0dd8ece7331a941137
-    name: bahmni-lab
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/bahmni-lab/bahmni-lab-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-04-19T11:37:44.70144779Z"
     description: Helm chart for bahmni-lab
     digest: ed4d61409732198fd289cbb568e6b537a84c4ef1edec2f8985ac7e7b8e7a1c4c
@@ -1400,15 +1391,6 @@ entries:
     - https://bahmni.github.io/helm-charts/bahmni-metabase/bahmni-metabase-1.0.0-1.tgz
     version: 1.0.0-1
   bahmni-web:
-  - apiVersion: v2
-    created: "2023-04-19T11:37:44.77959505Z"
-    description: Helm chart for bahmni-web
-    digest: ad012b5a658ba45a81dd9f729cd5d2085c1110cebafb8402972a0522afc27522
-    name: bahmni-web
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/bahmni-web/bahmni-web-1.0.0.tgz
-    version: 1.0.0
   - apiVersion: v2
     created: "2023-04-19T11:37:44.764578784Z"
     description: Helm chart for bahmni-web
