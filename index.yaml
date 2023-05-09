@@ -6968,15 +6968,6 @@ entries:
     version: 1.0.0-2
   reports:
   - apiVersion: v2
-    created: "2023-05-09T10:01:51.515586496Z"
-    description: Helm Chart for Bahmni Reports
-    digest: 239bb20b086186ecb3cf31c8546e4db42569d60809ef7cb5dcd6d759abb1c279
-    name: reports
-    type: application
-    urls:
-    - https://bahmni.github.io/helm-charts/reports/reports-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v2
     created: "2023-05-09T10:01:51.515306499Z"
     description: Helm Chart for Bahmni Reports
     digest: 9ee5e25e0ced0ccb71d7cdd0bb33469dedf8964b19eb276931b7616ee40ed296
